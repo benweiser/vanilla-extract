@@ -152,14 +152,15 @@ export class ConditionalRuleset {
    *
    * @returns true if successful, false if the ruleset is incompatible
    */
-  mergeIfCompatible(incomingRuleset: ConditionalRuleset) {
-    if (!this.isCompatible(incomingRuleset)) {
-      return false;
-    }
+  mergeIfCompatible(_incomingRuleset: ConditionalRuleset) {
+    // if (!this.isCompatible(incomingRuleset)) {
+    //   return false;
+    // }
 
-    this.merge(incomingRuleset);
+    // this.merge(incomingRuleset);
 
-    return true;
+    // return true;
+    return false;
   }
 
   sort() {
